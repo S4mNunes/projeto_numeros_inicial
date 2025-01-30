@@ -5,7 +5,7 @@ let paragrafo = document.querySelector('p');
 paragrafo.innerHTML = 'Escolha um numero entre 1 e 10'
 
 let listaNumeroDeSorteados = [];
-let numeroLimite = 5
+let numeroLimite = 100
 let numeroSecreto = gerarNumeroAleatorio()
 let tentativas = 1
 function exibirTextoNaTela(tag, texto){
