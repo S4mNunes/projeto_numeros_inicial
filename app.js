@@ -2,10 +2,10 @@ let titulo = document.querySelector('h1');
 titulo.innerHTML = 'Jogo do numero secreto';
 
 let paragrafo = document.querySelector('p');
-paragrafo.innerHTML = 'Escolha um numero entre 1 e 45'
+paragrafo.innerHTML = 'Escolha um numero entre 1 e 10'
 
 let listaNumeroDeSorteados = [];
-let numeroLimite = 45
+let numeroLimite = 100
 let numeroSecreto = gerarNumeroAleatorio()
 let tentativas = 1
 function exibirTextoNaTela(tag, texto){
